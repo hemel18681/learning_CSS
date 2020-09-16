@@ -24,3 +24,62 @@ body{
     background: #fff000 url('../assets/5.png') no-repeat top center /
         200px auto;
 }
+.xx2{
+    /*border-width: 5px;
+    border-style: solid;
+    border-color: #ff0000;
+    border-radius: 10px;
+    /*
+    border: 5px dotted #ff0000;
+    border-radius: 10px;*/
+    border-width: 10px 20px 30px 40px;
+    
+    /*up right down left*/
+    
+    border-style: dotted solid dashed ridge;
+    border-color: #ff0000 #ffff00 #333 green;
+    
+}
+/*body{
+    margin: 0;
+}*/
+.xx3{
+    width: 50%;
+    height: 300px;
+    background: #333;
+    /*up right down left*/
+    /*up-bottom right-left*/
+    margin: 50px 100px;
+    /*auto works for left and right*/
+    margin: auto;
+       
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
