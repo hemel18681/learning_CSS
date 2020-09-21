@@ -116,9 +116,10 @@ a{
     background: green;
     color: #333;
 }
-
-
-
+.list ul{
+    /*list-style-type: upper-roman;*/
+    list-style-image: url('../assets/ok.png');
+}
 
 
 
