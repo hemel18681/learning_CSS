@@ -94,11 +94,28 @@ a{
     font-weight: 700;
     font-variant: small-caps;
 }
-
-
-
-
-
+.link a{
+    color: #fff;
+    font-family: tahoma;
+    padding: 10px 20px;
+    font-size: 30px;
+}
+.link a:link{
+    text-decoration: none;
+    background: #333;
+}
+.link a:visited{
+    background: red;
+    color: yellow;
+}
+.link a:hover{
+    background: yellow;
+    color: red;
+}
+.link a:active{
+    background: green;
+    color: #333;
+}
 
 
 
