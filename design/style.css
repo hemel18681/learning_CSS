@@ -120,6 +120,61 @@ a{
     /*list-style-type: upper-roman;*/
     list-style-image: url('../assets/ok.png');
 }
+.table table,td,th{
+    border: 1px solid #ddd;
+    text-align: left;
+}
+.table table{ 
+    width: 100%;
+    border-collapse: collapse;
+}
+.table th,td{
+    padding: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
