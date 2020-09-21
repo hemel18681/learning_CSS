@@ -73,8 +73,27 @@ p{
     outline: 3px solid green;
     outline-offset: 20px;
 }
-
-
+.text{
+    text-align: center;
+    color: lime;
+    text-transform:uppercase;
+    text-indent: 50px;
+    letter-spacing: 5px;
+    font-size: 20px;
+    line-height: 2;
+    word-spacing: 30px;
+    text-shadow: 2px 2px red;
+}
+a{
+    text-decoration: none;
+}
+.fonts{
+    font-family: Agency FB;
+    font-size: 3em;
+    font-style: italic;
+    font-weight: 700;
+    font-variant: small-caps;
+}
 
 
 
