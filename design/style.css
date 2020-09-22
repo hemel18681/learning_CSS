@@ -131,9 +131,17 @@ a{
 .table th,td{
     padding: 15px;
 }
+.display h2{
+    text-align: center;
+    display: inline-block;
+}
+.display span{
+    text-align: center;
+}
 
-
-
+.display ul li{
+    display: inline;
+}
 
 
 
