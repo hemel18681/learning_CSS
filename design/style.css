@@ -142,11 +142,56 @@ a{
 .display ul li{
     display: inline;
 }
-
-
-
-
-
+.max_width1{
+    border: 3px solid #000;
+    width: 400px;
+    margin: auto;
+}
+.max_width2{
+    border: 3px solid #000;
+    max-width: 400px;
+    margin: auto;
+}
+.green-box{
+    width: 600px;
+    height: 350px;
+    background: green;
+    /*position: absolute;*/
+    /*top: 50px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;*/
+    position: relative;
+}
+.red-box{
+    width: 180px;
+    height: 180px;
+    background: red;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    border-radius: 50%;
+}
+.xx5{
+    border: 3px solid red;
+    padding: 5px;
+    margin-top: 10px;
+    background: red;
+    position: sticky;
+    top: 0;
+}
+.position{
+/*    padding-bottom: 1000px;*/
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 2px solid red;
+}
 
 
 
