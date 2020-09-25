@@ -269,7 +269,19 @@ a{
 .menu ul li:hover a{
     color: #fff;
 }
-
+.container p{
+    background-color: yellow;
+}/*
+.container > p{
+    background-color: yellow;
+}
+.container + p{
+    background-color: yellow;
+}
+.container ~ p{
+    background-color: yellow;
+}
+*/
 
 
 
