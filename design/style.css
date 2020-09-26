@@ -328,13 +328,48 @@ a{
 .dropdown:hover .dropdown-content{
     display: block;
 }
+.sprite_icons{
+    overflow: hidden;
+}
+.sprite_icons ul{
+    margin: 0;
+    padding: 0;
+}
+.sprite_icons ul li{
+    float: left;
+    list-style-type: none;
+    margin-right: 10px;
+}
+.sprite_icons ul li:last-child{
+    margin-right: 0;
+}
+.sprite_icons ul li a{
+    background-image: url('../assets/sprite_icon.png');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    width: 84px;
+    height: 84px;
+    display: inline-block;
+    border: 2px solid #777;
+    border-radius: 50%;
+    transition: 1s;
+}
+.sprite_icons ul li:hover:nth-child(1) a{
+    background-position: 0 -84px;
+}
+.sprite_icons ul li:nth-child(2) a{
+    background-position: -840px 0;
+}
+.sprite_icons ul li:hover:nth-child(2) a{
+    background-position: -840px; -84px;
+}
+.sprite_icons ul li:nth-child(3) a{
+    background-position: -336px 0;
+}
 
-
-
-
-
-
-
+.sprite_icons ul li:hover:nth-child(3) a{
+    background-position: -336px; -84px;
+}
 
 
 
