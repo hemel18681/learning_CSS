@@ -404,10 +404,31 @@ a{
     height: 300px;
     background: radial-gradient(circle,red,yellow,green);
 }
-
-
-
-
+.shadows h2{
+    color: black;
+    font-size: 90px;
+    text-align: center;
+    text-shadow: 2px 3px red;
+}
+.shadow2{
+    width: 400px;
+    text-align: center;
+    margin: auto;
+    border: 1px solid #d4d4d4;
+}
+.shadow2 img{
+    width: 100%;
+}
+.shadow2_container{
+    padding: 10px;
+}
+.shadow2 h3{
+    font-size: 20px;
+    margin: 0;
+}
+.shadow2:hover{
+    box-shadow: 3px 8px 10px rgba(0,0,0,0.2), -3px 5px 10px rgba(0,0,0,0.2);
+}
 
 
 
