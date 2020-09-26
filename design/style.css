@@ -370,10 +370,26 @@ a{
 .sprite_icons ul li:hover:nth-child(3) a{
     background-position: -336px; -84px;
 }
-
-
-
-
+.media_querie{
+    width: 300px;
+    height: 300px;
+    background: red;
+}
+@media screen and (max-width: 980px){
+    .media_querie{
+        background: green;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 768){
+    .media_querie{
+        background: black;
+    }
+}
+@media screen and (max-width: 768px){
+    .media_querie{
+        background: yellow;
+    }
+}
 
 
 
