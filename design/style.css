@@ -439,8 +439,58 @@ a{
     margin: 50px auto;
     transform: rotate(45deg);
 }
-
-
+.transitions{
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 1s,height 1s,transform 1s;
+    transition-timing-function: linear;
+}
+.transitions:hover{
+    width: 200px;
+    height: 200px;
+    transform: rotate(180deg);
+}
+.animations{
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    /*animation-name: hemel18681;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: backwards;*/
+    animation: hemel18681 4s 1s infinite alternate backwards;
+}
+@keyframes hemel18681{
+    0%{
+        background-color: orange;
+        left: 0;
+        top:0;
+    }
+    25%{
+        background-color: green;
+        left: 200px;
+        top: 0;
+    }
+    50%{
+        background-color: yellow;
+        left:200px;
+        top: 200px;
+    }
+    75%{
+        background-color: lime;
+        left:0;
+        top: 200px;
+    }
+    100%{
+        background-color: red;
+        left:0;
+        top: 0;
+    }
+}
 
 
 
