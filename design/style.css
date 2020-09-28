@@ -491,7 +491,17 @@ a{
         top: 0;
     }
 }
-
+.wrapper{
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+}
+.wrapper 1div{
+    background: #eee;
+    padding: 1em;
+}
+.wrapper div:nth-child(odd){
+    background: #ddd;
+}
 
 
 
