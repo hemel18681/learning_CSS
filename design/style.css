@@ -493,9 +493,25 @@ a{
 }
 .wrapper{
     display: grid;
-    grid-template-columns: 40% 30% 30%;
+    /*grid-template-columns: 70% 30%;*/
+    /*grid-column-gap: 1em;
+    grid-row-gap: 1em;*/
+    /*grid-template-columns: 1fr 1fr 1fr;*/
+    /*grid-auto-rows: 100px;*/
+    grid-auto-rows: minmax(100px,auto);
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1em;
 }
-.wrapper 1div{
+.nested{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: 70px;
+    grid-gap: 1em;
+}
+.nested div{
+    border: #333 1px solid;
+}
+.wrapper div{
     background: #eee;
     padding: 1em;
 }
